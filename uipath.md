@@ -1,5 +1,7 @@
 # UiPath StudioX
 
+![](imgs/rpa2.png)
+
 ## Interface
 
 ![](imgs/uipath_imgs/interface_i.png)
