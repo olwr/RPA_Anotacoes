@@ -1,13 +1,13 @@
 # UiPath StudioX
 
-### Interface
+## Interface
 
 ![](imgs/uipath_imgs/interface_i.png)
 ![](imgs/uipath_imgs/interface_ii.png)
 ![](imgs/uipath_imgs/interface_iii.png)
 ***
 
-### Anatomia de uma Atividade
+## Anatomia de uma Atividade
 
 Atividades são os blocos de construção da automação. É um grupo de instruções que o robô segue para performar a tarefa. O Studio e StudioX usam atividades para montar a automação
 
@@ -38,7 +38,7 @@ As ações são nomeadas baseado nas ações comuns que performam em certas apli
 
 ***
 
-### Diferença entre Step, Task and Process
+## Diferença entre Step, Task and Process
 
 **Steps (passos) →** é uma ação necessária para completar um propósito específico e bem definido
 
@@ -54,7 +54,7 @@ ex: requisição de compra que precisa de múltiplos sistemas e requer validaç�
 
 ***
 
-### HumanPath para RobotPath
+## HumanPath para RobotPath
 
 Framework que ajuda a organizar a tarefa de uma maneira visual. Também ajuda há traduzir a tarefa para o que é conhecido como "robot language" (linguagem do robô)
 
