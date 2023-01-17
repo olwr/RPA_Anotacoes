@@ -24,7 +24,7 @@ Essas ações são realizadas seguindo regras e a sequência determinada pelo de
 
 ![](imgs/AdobeStock_305648015.jpeg)
 
-A automatização via RPA:
+**A automatização via RPA:**
 
 - Não interfere fortemente na estrutura nem na arquitetura de software da organização, pode ter um carácter localizado
 - Envolve implementações mais periféricas, rápidas e relativamente baratas (incrementais)
@@ -53,7 +53,7 @@ Apresentam como vantagens a agilidade para conclusão dos processos, a diminuiç
 
 ![](imgs/RPA-Tools.png)
 
-UiPath ↓
+**UiPath ↓**
 
 - Muitos parceiros tecnológicos
 - Ampla comunidade de usuários
@@ -63,7 +63,7 @@ UiPath ↓
 <!-- ![](imgs/67b83c5-studio-intro-img-2-1024x576.png) -->
 ![](imgs/UiPath_WEBSITE-GRAPHICS_WEB_Platform-Orchestrator-v2.png)
 
-Automation Anywhere ↓
+**Automation Anywhere ↓**
 
 - Plataforma cloud robusta
 - Usabilidade
@@ -74,7 +74,7 @@ Automation Anywhere ↓
 
 ![](imgs/mulesoft%20diagram-f8c9fa95-fc2e-46de-bbac-bd089d3a98d2.png)
 
-Blue Prism ↓ 
+**Blue Prism ↓** 
 
 - Bons recursos
 - Ampla comunidade de usuários e experts em 42 indústrias específicas
@@ -116,12 +116,12 @@ O desenvolvimento de um robô RPA é basicamente definir as necessidades e separ
 
 ## RPA no Contexto da Automação
 
-Orientado a Processos ↓
+**Orientado a Processos ↓**
 
 - (4) Robotic Desktop Automation [RDA] → automatização de processos com intervenção manual
 - (3) Robotic Process Automation [RPA] → automatização de processos com gatilhos digitais e self-service
 
-Orientado a Dados ↓
+**Orientado a Dados ↓**
 
 - (2) Machine Learning [ML] → automatização com análise de dados e modelos de decisão
 - (1) Artificial Intelligence [AI] → automatização que tende a "imitir" a inteligência humana
@@ -130,7 +130,7 @@ Orientado a Dados ↓
 
 ## Roadmap de Implementação
 
-Na área de TI ↓
+**Na área de TI ↓**
 
 → Capacitação para TI 
 → CoE (Center of Excellence) 
@@ -142,7 +142,7 @@ Na área de TI ↓
 → CoE
 - Desenvolvimento de novos robôs, disseminação e acompanhamento
 
-Na área de Negócios ↓ 
+**Na área de Negócios ↓**
 
 → Capacitação para Negócios
 → Seleção de processos a automatizar
@@ -156,29 +156,29 @@ Na área de Negócios ↓
 
 ## Alternativas de Implementação
 
-→ On-premise (infraestrutura local)
+**→ On-premise (infraestrutura local)**
 
-Vantagens:
+**Vantagens:**
 - Maior variedade de opções de plataforma
 - Governança local
 - Mais barata a longo prazo
 
-Desvantagens:
+**Desvantagens:**
 - Implementação mais lenta
 - Setup mais complexo
 - Requer pessoal treinado na organização para manter
 
-→ Cloud (infraestrutura externa)
+**→ Cloud (infraestrutura externa)**
 
 Costuma adquirir um carácter SaaS (Software as a Service), pois além da infraestrutura há também programação e sustentação de robôs. Comercialmente, existe o termo RaaS (Robot as a Service)
 
-Vantagens:
+**Vantagens:**
 - Implementação mais rápida
 - Plataforma mais restada
 - Setup mais simples
 - Menos dependência da TI local
 
-Desvantagens:
+**Desvantagens:**
 - Plataforma e políticas limitadas pelo fornecedor
 - Mais caro a longo prazo
 - Limitação a relatórios padrão
@@ -187,37 +187,37 @@ Desvantagens:
 
 ## Funcionalidades em Ferramentas 
 
-Configuração via "drag and drop"
+**Configuração via "drag and drop"**
 
 - Cria fluxos de automação sem necessidade de codificar
 - Aproxima a criação de robôs a áreas menos técnicas
 - Configuração mais rápida e visual
 
-Gravação de fluxo de trabalho
+**Gravação de fluxo de trabalho**
 
 - Usuário executa o trabalho e a ferramenta grava cada ação feita em tela
 - O autômato capta as atividades e a sequência para poder reproduzir depois
 
-Disponibilidade de modelos pré-configurados
+**Disponibilidade de modelos pré-configurados**
 
 - Apresenta templetes de automação para adoção/adaptação
 - Acelera a criação de robôs mais comuns
 
-Visão computacional e processamento de linguagem natural (AI/ML)
+**Visão computacional e processamento de linguagem natural (AI/ML)**
 
 - Nas soluções mais sofisticadas há a capacidade de "entender" palavras e ícones que elas "veem" durante as gravações do fluxo de trabalho
 - Podem executar processo de maneira precisa
 
-Integração com aplicativos de negócios
+**Integração com aplicativos de negócios**
 
 - São comuns integrações com ERPs e CRMs
 - Os robôs trabalham em conjunto com os sistemas nas tarefas "mecânicas"
 
-Programação do disparo de robôs
+**Programação do disparo de robôs**
 
 - Permite que os robôs entrem em ação em determinados horários ou por meio da ocorrência de certos gatilhos
 
-Análise de desempenho de robôs
+**Análise de desempenho de robôs**
 
 - Análise e painéis (dashboards) para rastrear a correção e eficiência do trabalho dos robôs
 
@@ -225,7 +225,7 @@ Análise de desempenho de robôs
 
 ## Impacto Organizacional e Humano do RPA
 
-Organizacional ↓
+**Organizacional ↓**
 
 - Reduz trabalho repetitivo, economizando horas de pessoas operacional, mas..
 - exige horas de trabalho em CoEs, etc
@@ -235,7 +235,7 @@ Organizacional ↓
 - Um processo ruim não se torna bom só por ser automatizado
 - Antes de automatizar, é de suma importância rever o processo, para que não sejam usados recursos em atividades que poderiam ser, por exemplo, eliminadas
 
-Humano ↓ 
+**Humano ↓** 
 
 - Libera o pessoal de trabalhos repetitivos, entediantes, mecânicos, etc
 - Pode acabar substituindo os funcionários, causando uma movimentação de pessoas
