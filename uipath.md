@@ -146,9 +146,13 @@ Depois de selecionar um segmento, a opção para mudar de framework não estará
 
 ### Debugging & Troubleshooting
 
+![](imgs/uipath_imgs/target_confg.png)
+
 **Check App State**
 
 É útil para situações onde se quer checar se o aplicativo que irá automatizar existe
+
+![](imgs/uipath_imgs/target_troubleshooting.png)
 
 Pense em abas diferentes em um aplicativo ou navegador. Quando se está adicionando atividades para o workflow, é necessário ter certeza de que se está selecionando os elementos ou abas corretas. Além disso, caso um elemento não seja encontrado é possível adicionar outro conjunto de atividades para serem executadas
 
@@ -156,5 +160,17 @@ Pense em abas diferentes em um aplicativo ou navegador. Quando se está adiciona
 
 O tempo para achar o elemento antas da execução da próxima atividade pode ser alterado na opção **Wait For It**
 
-![](imgs/uipath_imgs/target_confg.png)
-![](imgs/uipath_imgs/target_troubleshooting.png)
+
+**Show All Matches**
+
+É usado para encontrar todas os matches para o elemento selecionado no aplicativo
+
+![](imgs/uipath_imgs/show_all_matches_i.png)
+![](imgs/uipath_imgs/show_all_matches_ii.png)
+
+**Image Selection Mode**
+
+É útil para selecionar um segmento ou âncora que não está disponível em um único clique
+
+![](imgs/uipath_imgs/image_selection.png)
+![](imgs/uipath_imgs/image_selection_confg.png)
