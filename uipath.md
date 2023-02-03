@@ -174,3 +174,15 @@ O tempo para achar o elemento antas da execução da próxima atividade pode ser
 
 ![](imgs/uipath_imgs/image_selection.png)
 ![](imgs/uipath_imgs/image_selection_confg.png)
+
+***
+
+## Word (office) Automation
+
+Alguns capacidades de automação com o Word são:
+
+- Substituir fotos e textos
+- Adicionar fotos, anexar textos no final do documento, inserir tabelas em posições especificas relativas ao texto ou um marcador e definir marcadores de conteúdo
+- Exportar como PDF ou usar para preencher emails
+
+Para substituir fotos é necessário indica-las pelo seu texto alt. Ao contrário do Excel não se pode indicar os elementos do Word diretamente pelo Ui Path, é preciso escrever a referência do que se vai mudar
