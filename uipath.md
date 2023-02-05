@@ -177,7 +177,7 @@ O tempo para achar o elemento antas da execução da próxima atividade pode ser
 
 ***
 
-## Word (office) Automation
+## Automação do Word (office)
 
 Alguns capacidades de automação com o Word são:
 
@@ -186,3 +186,66 @@ Alguns capacidades de automação com o Word são:
 - Exportar como PDF ou usar para preencher emails
 
 Para substituir fotos é necessário indica-las pelo seu texto alt. Ao contrário do Excel não se pode indicar os elementos do Word diretamente pelo Ui Path, é preciso escrever a referência do que se vai mudar
+
+****
+
+## Decisões, Iterações e Cenários  
+
+Em alguns projetos pode ser necessário que o robô tenha que decidir entre opções disponíveis para avançar a automação. Dependendo da opção escolhida o robô pode seguir certos passos e ignorar outros. Sem decisões, os caminhos diferentes não estarão disponíveis para o robô
+
+### Decisões com If  
+
+A atividade If é usada quando o robô precisa escolher entre 2 opções dentro de uma condição específica. A condição pode ser formulada como uma pergunta: "a célula B4 está vazia?"
+
+Se a resposta for verdadeira (sim), then yes, o robô vai realizer os passos que estão definidos para o "then", se a resposta for falsa (não), else, então ele irá realizar os passos definidos para o "else"
+
+Essa atividade só funciona para perguntas que podem ser respondidas com "sim ou não"/"verdadeiro ou falso"
+
+![](imgs/uipath_imgs/if.png)
+
+### Iterações com For Each
+
+Iterações fazem com que o robô repita uma série de ações por determinada vezes.
+
+No StudioX alguns tipos de atividades "for each" (para cada) que interagem com aplicativos diferentes, dentre eles:
+
+**Excel For Each Row →** essa ação faz com que o robô itere por cada linha de um arquivo excel em um determinado range
+
+**For Each Email →** essa ação faz com que o robô itere através de emails de uma pasta. Se pode criar filtros para, por exemplo, trabalhar somente com emails não lidos ou emails com um destinatário específico
+
+**For Each File In Folder →** essa ação faz com que o robô itere através de todos os arquivos de uma pasta ou suas subpastas. Também se pode filtrar os arquivos que o robô irá escolher por nome os extensão. Ou pode escolher a order na qual os arquivos entrarão na iteração
+
+![](imgs/uipath_imgs/for_each.png)
+
+### Cenários com Switch
+
+Ás vezes é necessário realizar ações diferentes de acordo com condições ou valores. Quando são só 2 opções diretas (uma condição de sim ou não) se pode usar o "If", porém em situações com mais opções é de melhor prática usar a atividade "Switch" para não encher a tela de atividades desnecessárias
+
+![](imgs/uipath_imgs/switch_diagrama.gif)
+
+Switch é usado quando um item tem um valor que determina resultados diferentes. Se pode ter n casos, mas há sempre um caso padrão que cobre todas as situações que não foram contempladas pelos outros casos
+
+Essa atividade funciona quando se sabe exatamente quais valores a expressão pode ter
+
+![](imgs/uipath_imgs/switch.png)
+
+***
+
+## Automação de Arquivos e Pastas
+
+Ações como criar, copiar e renomear arquivos e pastas podem ser automatizados com uma série de passos simples
+
+**Ações comuns para ambos (arquivos e pastas)**
+
+- Copiar e mover de um local para outro
+- Criar e deletar. Para criar um arquivo é necessário especificar a sua extensão após o nome
+- Checar se um arquivo ou pasta existe. Se não existir, com o uso da atividade If, se pode criar ou mover ele de outro local
+
+**Ações incomuns**
+
+**Get File Info/Get Folder Info →** ação usada para obter as propriedades de um(a) arquivo/pasta (tamanho, caminho completo, nome, data de criação)
+Com essa informação se pode adicionar um timestamp no nome do arquivo com a ajuda do "Project Notebook"
+
+**For Each File In Folder →** ação para iterar por arquivos em pastas e suas subpastas. Essa atividade irá automaticamente obter as propriedades do arquivo atual
+
+**Read Text File →** ação que copia todo o texto de um arquivo. Se pode salvar para usar depois, usar uma ação **Write Text File** para substituir o texto existente de outro documento ou usar **Append Line** para adiciona-lo no final de um documento existente
